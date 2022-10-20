@@ -5,7 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'my-bg' : "url('../public/backgroundImage.jpg')",
+      },
+      fontFamily: {
+        Poppins: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
